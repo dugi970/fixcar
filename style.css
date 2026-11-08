@@ -49,7 +49,7 @@ h3{font-size:1.1rem;margin:0 0 .3rem}
 .post{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;color:inherit;text-decoration:none;display:flex;flex-direction:column}
 .post:hover{border-color:var(--ink)}
 .post img{aspect-ratio:16/10;object-fit:cover;width:100%}
-.post .tag{margin:1rem 1.2rem 0;font-size:.85rem;font-weight:700;color:var(--accent-d)}
+.post .tag{margin:1rem 1.2rem 0;font-size:.85rem;font-weight:700;color:#8a6400}
 .post h3{margin:.2rem 1.2rem .4rem}
 .post p{margin:0 1.2rem 1.2rem;color:var(--muted);font-size:.95rem;line-height:1.55}
 .empty{grid-column:1/-1;color:var(--muted);margin:0}
@@ -117,6 +117,6 @@ h3{font-size:1.1rem;margin:0 0 .3rem}
 .related{margin-top:2rem}
 @media(max-width:600px){.toc ol{columns:1}}
 
-.article table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
-.article th,.article td{border:1px solid #ddd;padding:.55rem .7rem;text-align:left;vertical-align:top}
-.article th{background:#f4f4f4}
+.doc table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
+.doc th,.doc td{border:1px solid #ddd;padding:.55rem .7rem;text-align:left;vertical-align:top}
+.doc th{background:#f4f4f4}
